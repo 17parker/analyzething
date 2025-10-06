@@ -1,0 +1,11 @@
+pandoc README.md -o README.pdf \       
+  --pdf-engine=xelatex \
+  --toc \
+  -V papersize=A4 \
+  -V geometry=margin=1in \
+  -V fontsize=11pt \
+  -V linestretch=1.5 \
+  -V mainfont="Times New Roman" \
+  -V sansfont="Arial" \
+  -V monofont="Courier New"
+

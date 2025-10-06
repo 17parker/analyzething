@@ -1,0 +1,9 @@
+{
+  "graph_file": "example_graph.json",
+  "num_nodes": 3,
+  "nodes": [
+    0,
+    1,
+    2
+  ]
+}

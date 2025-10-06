@@ -1,0 +1,20 @@
+2025-09-29 23:37:14,573 [INFO] === Program Started ===
+2025-09-29 23:37:14,574 [INFO] Driver main started.
+2025-09-29 23:37:26,566 [INFO] Timer started and logging...
+2025-09-29 23:37:26,566 [INFO] [TIMER]   0s elapsed | Memory: 64.32 MB
+2025-09-29 23:37:26,567 [INFO] Graph loaded with 3 nodes. Memory now 64.32 MB
+2025-09-29 23:37:26,614 [INFO] Graph visualization saved: output/graph.png
+2025-09-29 23:37:26,614 [INFO] Node listing saved: output/example_graph_nodes.json
+2025-09-29 23:37:26,614 [INFO] Preprocessing finished in 0.05s
+2025-09-29 23:37:27,567 [INFO] [TIMER] Preprocessing finished at 1s, stopping timer.
+2025-09-29 23:37:56,424 [INFO] Loaded 6 queries from input/example_query.txt
+2025-09-29 23:37:56,424 [INFO] Algorithm selected by policy: dijkstra
+2025-09-29 23:37:56,424 [INFO] 0 2 | 93.0 | 0.000032 | 0-[93]->2
+2025-09-29 23:37:56,424 [INFO] 1 2 | 24.0 | 0.000012 | 1-[24]->2
+2025-09-29 23:37:56,424 [INFO] 0 1 | 117.0 | 0.000011 | 0-[93]->2-[24]->1
+2025-09-29 23:37:56,424 [INFO] 2 0 | 93.0 | 0.000009 | 2-[93]->0
+2025-09-29 23:37:56,424 [INFO] 2 1 | 24.0 | 0.000006 | 2-[24]->1
+2025-09-29 23:37:56,424 [INFO] 1 0 | 117.0 | 0.000007 | 1-[24]->2-[93]->0
+2025-09-29 23:37:56,425 [INFO] Results saved: output/results.txt
+2025-09-29 23:37:56,426 [INFO] Final memory usage: 70.22 MB
+2025-09-29 23:37:56,426 [INFO] === LGPF session finished ===

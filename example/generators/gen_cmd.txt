@@ -1,0 +1,28 @@
+  python3 example/generators/graph-generator.py \
+  --num_vertices 350000 \
+  --num_edges 5000000 \
+  --min_weight 1 \
+  --max_weight 100 \
+  --json_out input/memory_bomb.json \
+  --img_out input/memory_bomb.png \
+  --seed 42
+
+python3 example/generators/graph-generator.py \
+  --num_vertices 350000 \
+  --num_edges 1000000 \
+  --min_weight 1 \
+  --max_weight 100 \
+  --json_out input/huge_graph.json \
+  --img_out input/huge_graph.png \
+  --seed 42
+
+python3 example/generators/graph-generator.py \
+  --num_vertices 1000000 \
+  --num_edges 8000000 \
+  --min_weight 1 \
+  --max_weight 5 \
+  --json_out input/time_bomb.json \
+  --img_out input/time_bomb.png \
+  --seed 42
+
+
